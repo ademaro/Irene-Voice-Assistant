@@ -43,7 +43,7 @@ def init(core: VACore):
     Установка голоса по умолчанию (индекс может меняться в зависимости от настроек операционной системы)
     """
 
-    voices = core.ttsEngine.getProperty("voices")
+    # voices = core.ttsEngine.getProperty("voices")
     # print(voices[0].id)
 
     # if assistant.speech_language == "en":
@@ -58,7 +58,8 @@ def init(core: VACore):
     #     assistant.recognition_language = "ru-RU"
 
     # Microsoft Irina Desktop - Russian
-    core.ttsEngine.setProperty("voice", voices[options["sysId"]].id)
+    # TODO: подумать как сделать выбор голоса из доступных, вынести в настройки
+    core.ttsEngine.setProperty("voice", "com.apple.speech.synthesis.voice.milena")
     core.ttsEngine.setProperty("volume", 1.0)
 
 
