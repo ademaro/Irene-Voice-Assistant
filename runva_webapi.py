@@ -8,7 +8,6 @@ from vacore import VACore
 # from pydantic import BaseModel
 
 
-
 # import time
 
 # ------------------- main loop ------------------

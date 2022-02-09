@@ -10,7 +10,6 @@ from jaa import JaaCore
 version = "3.3"
 
 
-
 class VACore(JaaCore):
     def __init__(self):
         JaaCore.__init__(self)
