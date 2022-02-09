@@ -9,3 +9,4 @@ __pycache__/
 /plugins/plugin_tts_silero.py
 /rhvoice_temp.wav
 /silero_*
+*.pyc
