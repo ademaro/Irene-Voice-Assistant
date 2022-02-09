@@ -1,13 +1,13 @@
 # ----------
 
-from fastapi import FastAPI, HTTPException
 import uvicorn
+from fastapi import FastAPI, HTTPException
 
+from vacore import VACore
 
 # from pydantic import BaseModel
 
 
-from vacore import VACore
 
 # import time
 
